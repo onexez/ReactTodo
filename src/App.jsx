@@ -1,8 +1,8 @@
-import { useEffect, useState } from 'react';
-import Header from './components/Header/Header';
-import Tasks from './components/Tasks/Tasks';
+import { useEffect, useState } from "react";
+import Header from "./components/Header/Header";
+import Tasks from "./components/Tasks/Tasks";
 
-const LOCAL_STORAGE_KEY = 'todo:savedTodos';
+const LOCAL_STORAGE_KEY = "todo:savedTodo";
 
 function App() {
   const [tasks, setTask] = useState([]);
